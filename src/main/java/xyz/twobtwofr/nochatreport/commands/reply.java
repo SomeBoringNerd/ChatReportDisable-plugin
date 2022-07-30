@@ -9,7 +9,6 @@ import org.jetbrains.annotations.NotNull;
 import xyz.twobtwofr.nochatreport.Nochatreport;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 
