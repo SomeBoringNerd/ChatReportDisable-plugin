@@ -1,0 +1,23 @@
+name: Nochatreport
+version: '1.0'
+main: xyz.twobtwofr.nochatreport.Nochatreport
+api-version: 1.19
+authors: [ SomeBoringNerd ]
+description: Disable chat report and allow green text
+website: 2b2fr.xyz
+permissions:
+  chatreport.chat:
+    description: Allow player to see chat (for some reason, i have to add it)
+commands:
+  msg:
+    description: Message a player
+    aliases:
+      - msg
+      - message
+      - w
+      - whisper
+  reply:
+    description: reply to a player
+    aliases:
+      - reply
+      - r
