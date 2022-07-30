@@ -74,7 +74,7 @@ public class msg implements CommandExecutor
                         }
                     }
                 }
-                sender.sendMessage("§5 you whisper to " + player_2.getName() + " : §d" + message.trim());
+                sender.sendMessage("§5You whisper to " + player_2.getName() + " : §d" + message.trim());
                 player_2.sendMessage("§5" + Objects.requireNonNull(player.getPlayer()).getName() + " whispers to you : §d" + message.trim());
                 return true;
             }

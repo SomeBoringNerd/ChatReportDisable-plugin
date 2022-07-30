@@ -42,7 +42,7 @@ public class reply  implements Listener, CommandExecutor
             for(String str : args){
                 message += str + " ";
             }
-            sender.sendMessage("§5you whisper to " + lastPlayerMessaged.get(sender).getName() + " : §d" + message.trim());
+            sender.sendMessage("§5You whisper to " + lastPlayerMessaged.get(sender).getName() + " : §d" + message.trim());
             lastPlayerMessaged.get(sender).sendMessage("§5" + Objects.requireNonNull(sender).getName() + " whispers to you : §d" + message.trim());
         }
         return false;
