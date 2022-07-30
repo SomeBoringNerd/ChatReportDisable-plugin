@@ -1,5 +1,5 @@
 name: Nochatreport
-version: '1.0'
+version: '1.1'
 main: xyz.twobtwofr.nochatreport.Nochatreport
 api-version: 1.19
 authors: [ SomeBoringNerd ]
@@ -16,8 +16,14 @@ commands:
       - message
       - w
       - whisper
+    usage: /msg <player> <message>
   reply:
     description: reply to a player
     aliases:
       - reply
       - r
+    usage: /r <message>
+
+  me:
+    description: roleplay stuff
+    usage: /me <message>

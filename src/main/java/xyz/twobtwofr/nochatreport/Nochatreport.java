@@ -1,6 +1,7 @@
 package xyz.twobtwofr.nochatreport;
 
 import org.bukkit.plugin.java.JavaPlugin;
+import xyz.twobtwofr.nochatreport.commands.me;
 import xyz.twobtwofr.nochatreport.commands.msg;
 import xyz.twobtwofr.nochatreport.commands.reply;
 import xyz.twobtwofr.nochatreport.commands.msg;
@@ -20,6 +21,7 @@ public final class Nochatreport extends JavaPlugin {
         reply = new reply(this);
         getServer().getPluginManager().registerEvents(new ChatListener(), this);
         getCommand("msg").setExecutor(message);
+        getCommand("me").setExecutor(new me());
         getCommand("r").setExecutor(reply);
     }
 
