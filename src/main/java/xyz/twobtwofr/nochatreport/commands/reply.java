@@ -43,7 +43,8 @@ public class reply  implements Listener, CommandExecutor
             }
             sender.sendMessage("§5You whisper to " + lastPlayerMessaged.get(sender).getName() + " : §d" + message.trim());
             lastPlayerMessaged.get(sender).sendMessage("§5" + Objects.requireNonNull(sender).getName() + " whisper to you : §d" + message.trim());
+            return true;
         }
-        return false;
+
     }
 }

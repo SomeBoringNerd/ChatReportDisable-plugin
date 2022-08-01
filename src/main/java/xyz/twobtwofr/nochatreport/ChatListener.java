@@ -23,7 +23,7 @@ public class ChatListener implements Listener
     {
         event.setCancelled(true);
         for (Player player : Bukkit.getOnlinePlayers()) {
-            player.sendMessage("[" + event.getPlayer().getName() + "] " + (event.getMessage().startsWith(">") ? "§2" : "") + event.getMessage());
+            player.sendMessage("<" + event.getPlayer().getName() + "> " + (event.getMessage().startsWith(">") ? "§2" : "") + event.getMessage());
         }
 
     }
