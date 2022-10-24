@@ -25,6 +25,6 @@ public class ChatListener implements Listener
         for (Player player : Bukkit.getOnlinePlayers()) {
             player.sendMessage("<" + event.getPlayer().getName() + "> " + (event.getMessage().startsWith(">") ? "§2" : "") + event.getMessage());
         }
-
+        System.out.println("<" + event.getPlayer().getName() + "> " + (event.getMessage().startsWith(">") ? "§2" : "") + event.getMessage() + "§r");
     }
 }

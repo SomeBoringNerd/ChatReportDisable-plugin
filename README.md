@@ -1,5 +1,5 @@
 # NoChatReport
- 1.19.1 QOL plugin for anarchy servers
+ 1.19.2 QOL plugin for anarchy servers
 
 # usage
 put it in the plugin folder, (re)start your server and enjoy !
