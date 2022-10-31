@@ -1,4 +1,4 @@
-# NoChatReport
+# ChatReportDisable
  1.19.2 QOL plugin for my anarchy server.
 
 Not related to the mod NoChatReport in any way, shape or form
